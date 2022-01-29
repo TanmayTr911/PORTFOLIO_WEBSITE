@@ -1,0 +1,442 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@300&family=Roboto+Condensed&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono&display=swap');
+*{
+    font-family: 'Roboto Condensed', sans-serif;
+}
+.container{
+    display: flex;
+    padding: 0px;
+    margin: 0px;
+    flex-wrap: wrap;
+
+}
+
+.sidebar{
+    background-color:rgb(225, 230, 228); 
+    /* color: blue; */
+    margin: 0;padding: 0;
+    width: 20%;
+    overflow:visible;
+    font-family: 'Roboto Condensed', sans-serif;
+    height: 96%;
+    border-radius: 5px;
+    padding-top: 3px;
+    position: fixed;
+    margin-bottom: 3px;
+}  
+
+.nav{
+    overflow: visible;
+    padding: 35px;
+    line-height: 3.5;
+    font-size: 30px;
+    color: black;
+    margin-top: 0px;
+    padding-top: 0px;
+}
+
+.nav li a{
+    color: black;
+    text-decoration: none;
+}
+
+.nav li a:hover{
+
+    color: rgb(162, 161, 163);
+}
+
+
+
+
+.nav ul{
+    padding: 0ch;
+    text-align: center;
+}
+
+.nav li{
+    list-style: none;
+}
+
+.main{
+    /* background-color: beige; */
+    color: black;
+    width: 1031px;
+    
+}
+
+.main .info {
+    position: absolute;
+    width: 74%;
+    margin-left: 18em;
+    height: 31em;
+    margin-top: 4em;
+    background-color: rgb(225, 230, 228);
+    border: 20px black;
+    display: flex;
+    justify-content: space-around;
+    border-radius: 10px;
+    padding-left: 5px;
+}
+
+.devimg img{
+    
+    padding-right: 0%;
+    height: 450px;
+    
+}
+
+.devinfo{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    font-size: 75;
+    /* line-height: 1.5 ; */
+    font-family: 'Roboto Condensed', sans-serif;
+
+   
+}
+
+.name{
+    font-family: 'Roboto Condensed', sans-serif;    font-size: 50px;
+    font-weight: 700;
+}
+
+.skll{
+    padding-top: 5px;
+    padding-bottom: 15px;
+    font-size: 35px;
+}
+
+ 
+
+.btn{
+    display: flex;
+    flex-direction: row;
+    font-family: 'Roboto Condensed', sans-serif;
+    /* background-color: azure; */
+    
+    
+}
+
+.cv {
+    background-color: rgb(71, 182, 247);
+    margin: 5px ;
+    border-radius: 20px;
+    margin: 5px;
+    border: 0ch;
+    padding: 10px;
+    margin-right: 20px;
+    cursor: pointer;
+    color: rgb(249, 252, 252);
+}
+
+.cme {
+    cursor: pointer;
+    background-color: rgb(71, 182, 247);
+    margin: 5px ;
+    border-radius: 20px;
+    margin: 5px;
+    border: 0ch;
+    color: rgb(249, 252, 252);
+}
+
+.cme:hover{
+    
+    background-color: rgb(249, 252, 252);
+
+
+}
+
+.cv:hover{
+    color: rgb(71, 182, 247);
+    background-color: rgb(249, 252, 252);
+}
+
+.cme a{
+    color: rgb(247, 248, 248);
+    text-decoration: none;
+
+}
+
+h4{
+    text-align: center;
+    font-size: 200%;
+    margin-bottom: 30px;
+}
+
+.cme a:hover{
+    color:  rgb(71, 182, 247);
+}
+
+.intro{
+    margin-top: 38em;
+    position: relative;
+    margin-left: 17em;
+    margin-right: 10px;
+    font-family: 'Roboto Condensed', sans-serif;
+    background-color: rgb(225, 230, 228);
+    width: 87%;
+    height: fit-content;
+    padding: 10px 27px 10px;
+    border-radius: 5px;
+    padding-bottom: 10px;
+}
+.intro h3{
+    margin-top: 0px;
+    text-align: center;
+    font-size: 3em;
+    margin-bottom: 10px;
+}
+
+.intro ul{
+    display: flex;
+    padding-left: 0px;
+}
+
+.intro ul li {
+    display: flex;
+    flex-direction: column;
+}
+
+.intro img{
+    width:280px;
+    margin: 15px;
+    margin-top: 0px;
+    display: inline-block;
+    height: 160px;
+    border-radius: 10px;
+    transition: 0.5s;
+}
+
+.intro img:hover{
+    transform: scale(1.45);
+}
+
+.intro img[src="./image/cc.png"]{
+    margin-left: 0px;
+}
+
+.intro ul li p{
+    text-align: center;
+    margin-top: 0px;
+}
+
+
+.intro ul li a{
+    color: black;
+    text-decoration: none;
+    font-size: 1.5em;
+   
+}
+
+.skl h3{
+    margin-top: 5px;
+    text-align: center;
+    font-size: 3em;
+    margin-bottom: 10px;
+}
+
+.skl{
+    margin-top: 4em;
+    margin-left: 17em;
+    background-color: rgb(225, 230, 228);
+    position: absolute;
+    height: 440px;
+    width: 940px;
+    border-radius: 5px;
+    margin-bottom: 100px;
+}
+
+.proj{
+
+    margin-top: 37em;
+    margin-left: 17em;
+    background-color: rgb(2, 2, 2);
+    position: absolute;
+    height: fit-content;
+    width: 940px;
+    border-radius: 5px;
+    margin-bottom: 300px;
+    color: rgb(225, 230, 228);
+    padding-bottom: 2rem ;
+   
+
+}
+.proj h3{
+    margin-top: 0px;
+    text-align: center;
+    font-size: 3em;
+    margin-bottom: 10px;
+}
+
+.projimg1 {
+    width: 23em;
+    height: 12em;
+    margin-top: 2em;
+    margin-left: 3em;
+    border-radius: 10px;
+    margin-right: 2em;
+    transition: 0.5s;
+}
+
+.projimg1:hover{
+    transform: scale(1.4);
+    box-shadow: hsl(0, 0%, 2%) 10px 10px 5px 5px;
+    
+}
+
+.proj p{
+
+    font-size: 1.5em;
+    margin-top: 5px;
+    display: inline;
+    margin-left: 18rem;
+
+}
+
+.proj .p1{
+    
+    margin-left: 10rem;
+}
+.proj .p3{
+    
+    margin-left: 12rem;
+}
+.proj .p4{
+    
+    margin-left: 21rem;
+}
+
+.skl .bar{
+
+    background-color: rgb(249, 252, 252);
+    width: 45%;
+    border-radius: 15px;
+    height: fit-content;
+    margin-bottom: 15px;
+    margin-left: 10px;
+    border: none;
+}
+
+.sklset{
+    display: flex;
+    margin-left:150px;
+    font-size: 1.5em;
+    text-align: center;
+}
+
+.cpp{
+    background-color: rgb(71, 182, 247);
+    width: 80%;
+    border: none;
+    border-radius: 15px;
+    animation-name: tr;
+    animation-duration: 2s;
+    animation-delay: 2s;
+    animation-iteration-count: 2;
+
+}
+
+@keyframes tr{
+    from{
+        width:0%;
+    }
+
+    to{
+        width:80%;
+    }
+}
+
+.dsa{
+    background-color: rgb(71, 182, 247);
+    width: 70%;
+    border: none;
+    border-radius: 15px;
+    animation-name: tr;
+    animation-duration: 2s;
+    animation-delay: 2s;
+    animation-iteration-count: 2;
+
+}
+
+.htm{
+    background-color: rgb(71, 182, 247);
+    width: 80%;
+    border: none;
+    border-radius: 15px;
+    animation-name: tr;
+    animation-duration: 2s;
+    animation-delay: 2s;
+    animation-iteration-count: 2;
+
+}
+
+.css{
+    background-color: rgb(71, 182, 247);
+    width: 70%;
+    border: none;
+    border-radius: 15px;
+    animation-name: tr;
+    animation-duration: 2s;
+    animation-delay: 2s;
+    animation-iteration-count: 2;
+
+}
+
+.js{
+    background-color: rgb(71, 182, 247);
+    width: 50%;
+    border: none;
+    border-radius: 15px;
+    animation-name: tr;
+    animation-duration: 2s;
+    animation-delay: 2s;
+    animation-iteration-count: 2;
+
+}
+
+.py{
+    background-color: rgb(71, 182, 247);
+    width: 40%;
+    border: none;
+    border-radius: 15px;
+    animation-name: tr;
+    animation-duration: 2s;
+    animation-delay: 2s;
+    animation-iteration-count: 2;
+}
+
+.java{
+    background-color: rgb(71, 182, 247);
+    width: 30%;
+    border: none;
+    border-radius: 15px;
+    animation-name: tr;
+    animation-duration: 2s;
+    animation-delay: 2s;
+    animation-iteration-count: 2;
+
+}
+
+@media (max-width:450px) {
+
+   /* *{
+       background-color: blue;
+   } */
+
+   .sidebar{
+       transform: translate(-300px,0px);
+       position: absolute;
+   }
+
+   .devimg{
+       display: none;
+   }
+    
+}
+
+
+
+
+
+
