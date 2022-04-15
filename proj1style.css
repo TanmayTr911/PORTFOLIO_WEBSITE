@@ -158,6 +158,12 @@
 
 }
 
+.cv a{
+    color: rgb(247, 248, 248);
+    text-decoration: none;
+
+}
+
 h4{
     text-align: center;
     font-size: 200%;
@@ -165,6 +171,10 @@ h4{
 }
 
 .cme a:hover{
+    color:  rgb(71, 182, 247);
+}
+
+.cv a:hover{
     color:  rgb(71, 182, 247);
 }
 
